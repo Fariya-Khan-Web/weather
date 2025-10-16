@@ -1,14 +1,14 @@
 import './App.css'
+import Header from './components/Header/Header'
+
 
 function App() {
 
 
   return (
-    <>
- 
-      <h1>Vite + React</h1>
-     
-    </>
+    <div class="bg-body font-[Roboto] text-light bg-[url('../assets/body-bg.png')] bg-no-repeat bg-cover h-screen grid place-items-center">
+      <Header />
+    </div>
   )
 }
 
